@@ -1,0 +1,23 @@
+#question-display{
+	text-align: center;
+	border: "#"
+
+}
+
+#enter-name{
+	text-align: right;
+}
+
+#question-number{
+	text-align: center;
+}
+
+/* source: https://gist.github.com/charliepark/3409697 */
+@-webkit-keyframes rainbow {
+  0% {color: hsl(0, 100%, 50%);}
+  100% {color: hsl(255, 100%, 50%);}
+}
+
+.rainbow-color {
+  -webkit-animation: rainbow 5s infinite alternate;
+}
